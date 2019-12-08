@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.559" height="14.201" viewBox="0 0 17.559 14.201">
+  <g id="three-buildings" transform="translate(0 -55.366)">
+    <g id="Group_4239" data-name="Group 4239" transform="translate(0 55.366)">
+      <path id="Path_1338" data-name="Path 1338" d="M131.012,60.567h3.1V57.395h1.864v3.172h3.1v-14.2h-8.067Zm4.6-12.527h1.864V49.9h-1.864Zm0,3h1.864V52.9h-1.864Zm0,3h1.864V55.9h-1.864Zm-3-5.993h1.864V49.9h-1.864Zm0,3h1.864V52.9h-1.864Zm0,3h1.864V55.9h-1.864Z" transform="translate(-126.266 -46.366)" fill="#007aff"/>
+      <path id="Path_1339" data-name="Path 1339" d="M373.719,81.482V91.523h1.2v2.888h2.824V81.482Zm2.562,8.677h-1.7v-1.7h1.7v1.7Zm0-2.728h-1.7v-1.7h1.7v1.7Zm0-2.728h-1.7v-1.7h1.7v1.7Z" transform="translate(-360.182 -80.21)" fill="#007aff"/>
+      <path id="Path_1340" data-name="Path 1340" d="M0,94.411H2.824V91.523h1.2V81.482H0Zm1.46-11.4h1.7v1.7H1.46Zm0,2.728h1.7v1.7H1.46Zm0,2.728h1.7v1.7H1.46Z" transform="translate(0 -80.21)" fill="#007aff"/>
+    </g>
+  </g>
+</svg>

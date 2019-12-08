@@ -1,0 +1,82 @@
+image: deployer:latest
+services:
+  - docker:dind
+before_script:
+  - docker version
+  - env
+  - sh /app/active.sh
+stages:
+  - build
+  - release-uat
+  - build-canary
+  - release-canary
+  - release
+
+variables:
+  BUILD_IMAGE: gcr.io/vexere-218206/$CI_PROJECT_NAME:$CI_COMMIT_SHA
+  TAG_IMAGE: gcr.io/vexere-218206/$CI_PROJECT_NAME:$CI_COMMIT_TAG
+  RELEASE_IMAGE: gcr.io/vexere-218206/$CI_PROJECT_NAME:latest
+
+build:
+  stage: build
+  variables:
+    NODE_ENV: 'uat'
+  script:
+    - docker build -t $BUILD_IMAGE .
+    - docker  push  $BUILD_IMAGE
+  only:
+    - develop
+  tags:
+    - docker-builder
+
+release-uat:
+  stage: release-uat
+  script:
+    - cd ./k8s
+    - sed -i "s/latest/"$CI_COMMIT_SHA"/g" uat-generate-sitemap.yml
+    - cat uat-generate-sitemap.yml
+    - kubectl apply -f uat-generate-sitemap.yml
+  only:
+    - develop
+  tags:
+    - docker-builder
+
+build-canary:
+  stage: build-canary
+  variables:
+    NODE_ENV: 'production'
+  script:
+  - docker build -t $BUILD_IMAGE .
+  - docker push $BUILD_IMAGE
+  only:
+  - master
+  tags:
+  - docker-builder
+
+release-canary:
+  stage: release-canary
+  script:
+  - cd ./k8s
+  - sed -i "s/latest/"$CI_COMMIT_SHA"/g" canary-generate-sitemap.yml
+  - cat canary-generate-sitemap.yml
+  - kubectl apply -f canary-generate-sitemap.yml
+  only:
+  - master
+  tags:
+  - docker-builder
+
+release:
+  stage: release
+  script:
+    - cd ./k8s
+    - docker tag $BUILD_IMAGE $TAG_IMAGE
+    - docker tag $BUILD_IMAGE $RELEASE_IMAGE
+    - docker push $TAG_IMAGE
+    - docker push $RELEASE_IMAGE
+    - sed -i "s/latest/"$CI_COMMIT_TAG"/g" production-generate-sitemap.yml
+    - cat production-generate-sitemap.yml
+    - kubectl apply -f production-generate-sitemap.yml
+  only:
+    - /^release-.*$/
+  tags:
+    - docker-builder

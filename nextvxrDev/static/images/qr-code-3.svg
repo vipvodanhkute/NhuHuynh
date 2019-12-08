@@ -1,0 +1,13 @@
+<svg id="qr-code-3" xmlns="http://www.w3.org/2000/svg" width="16.374" height="16.373" viewBox="0 0 16.374 16.373">
+  <g id="Group_4250" data-name="Group 4250">
+    <path id="Path_1358" data-name="Path 1358" d="M0,226.708H7.443v-7.443H0Zm1.488-5.954H5.954v4.454H1.488Z" transform="translate(0 -210.334)" fill="#007aff"/>
+    <rect id="Rectangle_2456" data-name="Rectangle 2456" width="1.488" height="1.489" transform="translate(2.977 11.908)" fill="#007aff"/>
+    <rect id="Rectangle_2457" data-name="Rectangle 2457" width="1.489" height="1.488" transform="translate(11.908 14.885)" fill="#007aff"/>
+    <rect id="Rectangle_2458" data-name="Rectangle 2458" width="1.489" height="1.488" transform="translate(14.885 14.885)" fill="#007aff"/>
+    <path id="Path_1359" data-name="Path 1359" d="M225.219,220.754h-1.488v-1.489h-4.466v7.443h1.489v-4.466h1.488v1.489h4.466v-4.466h-1.489Z" transform="translate(-210.334 -210.334)" fill="#007aff"/>
+    <path id="Path_1360" data-name="Path 1360" d="M0,7.443H7.443V0H0ZM1.488,1.488H5.954V5.954H1.488Z" fill="#007aff"/>
+    <rect id="Rectangle_2459" data-name="Rectangle 2459" width="1.488" height="1.489" transform="translate(2.977 2.977)" fill="#007aff"/>
+    <path id="Path_1361" data-name="Path 1361" d="M219.265,0V7.443h7.443V0Zm5.954,5.954h-4.465V1.488h4.465Z" transform="translate(-210.334)" fill="#007aff"/>
+    <rect id="Rectangle_2460" data-name="Rectangle 2460" width="1.489" height="1.489" transform="translate(11.908 2.977)" fill="#007aff"/>
+  </g>
+</svg>

@@ -1,0 +1,2 @@
+export const STORE_DEVICE_INFO = 'containers/DEVICE/STORE_DEVICE';
+export const GA_CLOSE_BANNER = 'DEVICE/GA_CLOSE_BANNER';

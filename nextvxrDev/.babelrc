@@ -1,0 +1,36 @@
+{
+  "env": {
+    "production": {
+      "plugins": ["transform-remove-console"]
+    }
+  },
+  "presets": ["next/babel"],
+  "plugins": [
+    "inline-react-svg",
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ],
+    ["@babel/plugin-proposal-decorators", { "decoratorsBeforeExport": true }],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": false
+      }
+    ],
+    [
+      "babel-plugin-root-import",
+      {
+        "rootPathPrefix": "#"
+      }
+    ],
+    ["react-intl", {
+      "messagesDir": "lang/.messages/"
+    }]
+  ]
+}

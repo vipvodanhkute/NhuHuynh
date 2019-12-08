@@ -1,0 +1,77 @@
+{
+    "message": "Success",
+    "data": [
+        {
+            "id": 5,
+            "rank": 0,
+            "name": "Việt Nhật",
+            "routes": [
+                {
+                    "from": {
+                        "id": 21,
+                        "name": "Gia Lai"
+                    },
+                    "to": {
+                        "id": 421,
+                        "name": "An Biên"
+                    }
+                },
+                {
+                    "from": {
+                        "id": 3,
+                        "name": "Bắc Giang"
+                    },
+                    "to": {
+                        "id": 1,
+                        "name": "An Giang"
+                    }
+                }
+            ],
+            "sponsor_info": "20000|89000000",
+            "updated_by": "huy.vxr",
+            "updated_date": "2019-07-29T04:48:14.000Z",
+            "created_by": "huy.vxr"
+        },
+        {
+            "id": 7,
+            "rank": 0,
+            "name": "Hòa Thuận Anh",
+            "routes": [
+                {
+                    "from": {
+                        "id": 25,
+                        "name": "Hà Tĩnh"
+                    },
+                    "to": {
+                        "id": 28298,
+                        "name": "Saravane"
+                    }
+                },
+                {
+                    "from": {
+                        "id": 29,
+                        "name": "Sài Gòn"
+                    },
+                    "to": {
+                        "id": 7,
+                        "name": "Bến Tre"
+                    }
+                },
+                {
+                    "from": {
+                        "id": 7,
+                        "name": "Bến Tre"
+                    },
+                    "to": {
+                        "id": 29,
+                        "name": "Sài Gòn"
+                    }
+                }
+            ],
+            "sponsor_info": "3000|120000000",
+            "updated_by": "huy.vxr",
+            "updated_date": "2019-07-29T07:05:00.000Z",
+            "created_by": "huy.vxr"
+        }
+    ]
+}

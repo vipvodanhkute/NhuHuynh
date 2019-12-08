@@ -1,0 +1,51 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: production-generate-sitemap
+  labels:
+    app: production-generate-sitemap
+spec:
+  ports:
+    - protocol: TCP
+      port: 4000
+      targetPort: 4000
+      nodePort: 30018
+  type: NodePort
+  selector:
+    app: production-generate-sitemap
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: production-sitemap
+spec:
+  serviceName: production-generate-sitemap
+  replicas: 1
+  selector:
+    matchLabels:
+      app: production-generate-sitemap
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: production-generate-sitemap
+    spec:
+      terminationGracePeriodSeconds: 10
+      containers:
+      - name: production-generate-sitemap
+        image: gcr.io/vexere-218206/generate-sitemap:latest
+        ports:
+        - containerPort: 4000
+          name: sitemap
+        volumeMounts:
+        - mountPath: /usr/src/app/public
+          name: production-sitemap-vol
+  volumeClaimTemplates:
+  - metadata:
+      name: production-sitemap-vol
+    spec:
+      accessModes:
+        - ReadWriteOnce
+      resources:
+        requests:
+          storage: 10Gi

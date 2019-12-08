@@ -1,0 +1,683 @@
+{
+  "token": {
+    "token_type": "bearer",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXAiOjIsInVzciI6ImZlIiwiY2lkIjoiMTM1NWQ4ZDAtMzVhNC0xMWU1LTg0ZDMtY2ZhMTE5M2QyYjUwIiwiZXhwIjoxNTQ1MzY4MzcxfQ.MDZlwK-3zzGyYHBn5eF4ae5pj8KLZlpd_tXTOMmHz1Y",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZiI6MSwidHlwIjoyLCJ1c3IiOiJmZSIsImNpZCI6IjEzNTVkOGQwLTM1YTQtMTFlNS04NGQzLWNmYTExOTNkMmI1MCIsImV4cCI6MTU0NTk2OTU3MX0.zn6oEVKnxDQxIBT5uyxMlGIb5xgmmj-q2kXyILkBFYQ",
+    "expires_in": 3600
+  },
+  "request": {},
+  "total": {
+    "21-01-2019": {
+      "total": 0
+    },
+    "22-01-2019": {
+      "total": 40
+    },
+    "23-01-2019": {
+      "total": 0
+    },
+    "24-01-2019": {
+      "total": 0
+    },
+    "default": {
+      "total": 40
+    }
+  },
+  "totalTrips": {
+    "totalTrips": 100
+  },
+  "status": {
+    "21-01-2019": {
+      "status": "DEPARTED"
+    },
+    "22-01-2019": {
+      "status": "SOLD_OUT"
+    },
+    "23-01-2019": {
+      "status": "NOT_EXIST"
+    },
+    "default": {
+      "status": "NORMAL"
+    }
+  },
+  "review": {
+    "message": "Success",
+    "data": {
+      "page": 1,
+      "per_page": 20,
+      "total": 22,
+      "total_pages": 2,
+      "items": [
+        {
+          "id": 71106,
+          "first_name": "L H",
+          "email": "happyprincess1995@gmail.com",
+          "data_of_journey": "2013-09-10T00:00:00.000Z",
+          "vehicle_quality_rating": 5,
+          "overall_rating": 5,
+          "service_rating": 5,
+          "on_time_rating": 5,
+          "comment": "Chất lượng xe tốt, thái độ phục vụ cũng tốt.Nói chung là xe tiến oanh rất ổn định...tôi sẽ thường xuyên đi xe này.",
+          "rating_date": "2013-09-30T21:36:24.080Z"
+        },
+        {
+          "id": 71114,
+          "first_name": "Cát Tường",
+          "email": "tuong@gmail.com",
+          "data_of_journey": "2015-04-05T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 4,
+          "on_time_rating": 4,
+          "comment": "Chất lượng xe tốt, thái độ phục vụ cũng tốt. Nói chung là xe Tiến Oanh rất ổn định...tôi sẽ thường xuyên đi xe này.",
+          "rating_date": "2015-05-16T15:40:44.833Z"
+        },
+        {
+          "id": 71118,
+          "first_name": "Toàn",
+          "email": "trungtoan@gmail.com",
+          "data_of_journey": "2015-05-15T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 4,
+          "on_time_rating": 4,
+          "comment": "Xe Tiến Oanh chạy đúng giờ, chạy vừa phải không phóng nhanh. Nói chung là ổn, khá hài lòng..",
+          "rating_date": "2015-05-24T10:42:08.133Z"
+        },
+        {
+          "id": 71109,
+          "first_name": "Vũ Anh Quân",
+          "email": "anhquanvn@yahoo.com",
+          "data_of_journey": "2015-01-23T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 2,
+          "on_time_rating": 5,
+          "comment": "Rất thất vọng với anh lơ xe Tiến Oanh. Thái độ rất bất nhã với khách hàng. Làm thất lạc đồ của khách hàng mà lại có thái độ rất vô trách nhiệm. Tôi có cảm tưởng rằng nhân viên của Tiến Oanh ai cũng có thể la mắng khách hàng. Hôm nay tôi bị 2 người của Tiến Oanh nạt nộ: Một lơ xe và một cô nghe điện thoại qua số máy này 01229484849. Mong chủ xe tiếp thu ý kiến này.",
+          "rating_date": "2015-01-24T20:24:51.536Z"
+        },
+        {
+          "id": 71111,
+          "first_name": "ThanhMTD",
+          "email": "thanhmmt07@gmail.com",
+          "data_of_journey": "2015-04-01T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 4,
+          "on_time_rating": 4,
+          "comment": "Thái độ phục vụ của nhà xe rất tốt, hướng dẫn tận tình cho khách hàng. Đón trả khách đúng nơi và có phục nước uống, khăn lạnh, cơm đầy đủ cho hành khách.  Đặc biệt xe chạy đúng giờ.",
+          "rating_date": "2015-05-16T09:29:55.036Z"
+        },
+        {
+          "id": 71117,
+          "first_name": "Hạnh",
+          "email": "myhanh@gmail.com",
+          "data_of_journey": "2015-05-06T00:00:00.000Z",
+          "vehicle_quality_rating": 3,
+          "overall_rating": 3,
+          "service_rating": 3,
+          "on_time_rating": 4,
+          "comment": "Xe Tiến Oanh mới, chăm sóc khách hàng tốt",
+          "rating_date": "2015-05-24T10:30:49.210Z"
+        },
+        {
+          "id": 71123,
+          "first_name": "Đặng Anh Dũng",
+          "email": "anhdung.bank10@gmail.com",
+          "data_of_journey": "2015-07-24T00:00:00.000Z",
+          "vehicle_quality_rating": 5,
+          "overall_rating": 5,
+          "service_rating": 5,
+          "on_time_rating": 5,
+          "comment": "Lần thứ 3 đi xe Tiến Oanh, và cảm nhận đi lần thứ 3 thì chất lượng xe cũng như thái độ phục vụ của nhà xe càng ngày càng tăng, phục vụ càng chuyên nghiệp. Lái xe cũng như thằng ku lơ xe nói chuyện ok, phục vụ nhiệt tình. Nếu về Buôn Ma Thuột, tôi sẽ tiếp tục chọn Tiến Oanh :)",
+          "rating_date": "2015-07-27T14:34:10.366Z"
+        },
+        {
+          "id": 71113,
+          "first_name": "huy vũ",
+          "email": "huy@gmail.com",
+          "data_of_journey": "2014-07-22T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 4,
+          "on_time_rating": 4,
+          "comment": "Khá thích sử dụng dịch vụ của xe Tiến Oanh. Xe chạy êm, đúng giờ, nhân viên cũng khá thân thiện, nhiệt tình. Tuy nhiên thì nhiều lúc đặt vé xe hơi khó, gọi lên máy hay bận.",
+          "rating_date": "2015-05-16T15:39:38.266Z"
+        },
+        {
+          "id": 71116,
+          "first_name": "Phú",
+          "email": "giaphu@gmail.com",
+          "data_of_journey": "2015-05-14T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 4,
+          "on_time_rating": 4,
+          "comment": "Nhân viên xe hướng dẫn cho khách tận tình, xe khởi hành đúng giờ, nhưng hay bắt khách dọc đường. Có phục vụ nước uống,  xe cũng hiện đại, thoải mái.",
+          "rating_date": "2015-05-24T00:24:23.343Z"
+        },
+        {
+          "id": 71108,
+          "first_name": "Nguyễn Thị Thu Hồng",
+          "email": "happysunnyday1422@gmail.com",
+          "data_of_journey": "2014-10-05T00:00:00.000Z",
+          "vehicle_quality_rating": 3,
+          "overall_rating": 4,
+          "service_rating": 3,
+          "on_time_rating": 4,
+          "comment": "Khá thích sử dụng dịch vụ của xe Tiến Oanh. Xe chạy êm, đúng giờ, nhân viên cũng khá thân thiện, nhiệt tình. Tuy nhiên thì nhiều lúc đặt vé xe hơi khó, gọi lên máy hay bận. ",
+          "rating_date": "2014-10-17T11:43:47.390Z"
+        },
+        {
+          "id": 71122,
+          "first_name": "Quách Cát Điền",
+          "email": "cadiqua1807@gmail.com",
+          "data_of_journey": "2015-07-24T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 4,
+          "on_time_rating": 4,
+          "comment": "Vô tình thay đổi thói quen, lần đầu mình chọn dịch vụ của nhà xe Tiến Oanh. Lúc đầu cũng hơi nghi ngại vì thấy giá cả  thấp hơn so với các dịch vụ khác, sợ rằng chất lượng phục vụ cũng như mọi thứ cũng sẽ giảm theo. Nhưng khi trải nghiệm thì mình thấy mọi thứ cũng rất ok. phê bình tí là: lúc trả khách, đường nhà mình ko cấm nhưng bạn nói xe ko vào được. Bạn cho mình xuống gần khu vực đó lúc hơn 4h sáng, rồi lết bộ về ( gặp cướp thì phiền). Khen cái là, mình có đánh rơi cái ví trên xe, nghe nhà xe điện thoại  thông báo, mình chưa kịp lên lấy thì họ đã đem tới tận nhà gửi trả cho mình (good, cố găng phát huy tạo niềm tin cho khách hàng).\n",
+          "rating_date": "2015-07-26T01:16:17.686Z"
+        },
+        {
+          "id": 71120,
+          "first_name": "Nguyễn Hoàng Oanh",
+          "email": "oanhnguyenkiwi@gmail.com",
+          "data_of_journey": "2015-05-21T00:00:00.000Z",
+          "vehicle_quality_rating": 5,
+          "overall_rating": 5,
+          "service_rating": 5,
+          "on_time_rating": 5,
+          "comment": "Mình là con gái nên chúa gét những kiểu xe nào bẩn, từ khi biết Tiến Oanh mình ấn tượng nhất về khoản sach sẽ thơm tho của nhà xe này, từ những cái nhỏ nhặt nhất như túi nilon , dép cho khách đặc biệt rất sạch, ấn tượng nhất là chăn đắp cho khách hàng rất thơm, tuy rằng không say xe nhưng lên xe cho cảm giác mình rất dễ chịu và dễ ngủ, còn cái điểm cộng cho nhà xe này là khách hàng bước xún xe thì có a phụ xe lấy dép sẵn ra cho khách đi, đưa tới chân, mình cảm thấy ngại luôn, con về tổng thể chuyến xe thì không có j chê được, cám ơn hãng xe Tiến Oanh đã quan tâm và lo lắng cho khách hàng, mình thường xuyên sử dụng xe này",
+          "rating_date": "2015-05-27T13:38:17.963Z"
+        },
+        {
+          "id": 71103,
+          "first_name": "Phan Diễm Hương",
+          "email": "Phandiemhuongkt@gmail.com",
+          "data_of_journey": "2013-06-01T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 3,
+          "on_time_rating": 3,
+          "comment": "Nhà xe chưa được chuyên nghiệp lắm, chưa coi khách hàng là thượng đế để phục vụ khách hàng một cách tốt nhất. Còn vì lợi nhuận, chở quá số người quy định",
+          "rating_date": "2013-08-23T00:00:00.000Z"
+        },
+        {
+          "id": 71112,
+          "first_name": "Nhan",
+          "email": "Le@gmail.com`",
+          "data_of_journey": "2014-12-16T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 4,
+          "on_time_rating": 4,
+          "comment": "Xe Tiến Oanh đi chạy bắt khách vòng vòng qua Bình Dương, mình không thích lắm",
+          "rating_date": "2015-05-16T10:16:02.303Z"
+        },
+        {
+          "id": 189905,
+          "first_name": "Tét",
+          "email": "Hhh@jjj.hhj",
+          "data_of_journey": "2016-03-02T12:00:00.000Z",
+          "vehicle_quality_rating": 5,
+          "overall_rating": 5,
+          "service_rating": 5,
+          "on_time_rating": 5,
+          "comment": "BhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhggBhhhjjjjjjuutffhhgg",
+          "rating_date": "2016-03-23T08:28:29.000Z"
+        },
+        {
+          "id": 71119,
+          "first_name": "Hùng",
+          "email": "thanhhung@gmail.com",
+          "data_of_journey": "2015-05-08T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 4,
+          "on_time_rating": 4,
+          "comment": "giá vé ổn, chất lượng xe tốt không có gì phàn nàn, wifi đầy đủ, còn chất lượng phục rất 0k, chu đáo, nhiệt tình, dễ chịu vs hành khách.",
+          "rating_date": "2015-05-27T13:21:46.770Z"
+        },
+        {
+          "id": 71115,
+          "first_name": "Dũng",
+          "email": "astar_in_sky243@yahoo.com",
+          "data_of_journey": "2015-05-19T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 4,
+          "on_time_rating": 4,
+          "comment": "Mình đã đi nhiều hãng xe lên Đăk Lăk, đi Hồng Hải thì chỉ có 1 tài, xe chạy nhanh kinh khủng, ổ gì cũng húc, xe Mai Linh chất lượng càng ngày càng xuống, ghế nằm ko thoải mái, được xe Tiến Oanh đi mình ngủ đc, êm, chạy không quá anh, chỉ có thời gian chạy hơi ko hợp lý, đi sớm nên đến sớm",
+          "rating_date": "2015-05-20T14:58:02.640Z"
+        },
+        {
+          "id": 71105,
+          "first_name": "nguyen thi thanh",
+          "email": "thanhnguyenthi356@gmail.com",
+          "data_of_journey": "2013-09-15T00:00:00.000Z",
+          "vehicle_quality_rating": 5,
+          "overall_rating": 5,
+          "service_rating": 5,
+          "on_time_rating": 5,
+          "comment": "mình đi xe Tiến Oanh nhiều lần rồi! xe chạy êm k bị sok như bên Quang Danh. lúc trc mình say xe cực kì từ khi đi Tiến Oanh hết lun cảm jac say xe, nhà xe phục vụ khách tận tình đưa đón tận tâm. kết xe này..... mong nhà xe típ tục phát huy!",
+          "rating_date": "2013-09-19T03:01:11.190Z"
+        },
+        {
+          "id": 71121,
+          "first_name": "Phạm văn Minh",
+          "email": "emvetrongmua@gmail.com",
+          "data_of_journey": "2013-12-14T00:00:00.000Z",
+          "vehicle_quality_rating": 4,
+          "overall_rating": 4,
+          "service_rating": 4,
+          "on_time_rating": 3,
+          "comment": "Minh đi hãng xe Tiến Oanh cách đây cũng đã hơn 2 năm rồi nhưng tới giờ minh khá ấn tượng với chất lượng phục vụ của nhà xe không gian sạch sẽ chăn mùng rất thơm thái độ phục vụ nhân viên khá chu đáo tài xế chạy xe cũng an toàn nên minh rất hay đi hãng xe này.",
+          "rating_date": "2015-07-06T18:44:03.446Z"
+        },
+        {
+          "id": 71110,
+          "first_name": "Thế Hoàng",
+          "email": "nguyenthanhhai04021985@gmail.com",
+          "data_of_journey": "2015-02-24T00:00:00.000Z",
+          "vehicle_quality_rating": 5,
+          "overall_rating": 5,
+          "service_rating": 5,
+          "on_time_rating": 5,
+          "comment": "Xe chất lượng tốt, chạy êm không như dòng như những xe khác. Đúng là xe Thương hiệu 3 cục giá 3 tỷ có khác. Chất lượng phục vụ nói chuyện với khách nhã nhặn. tốt. Nước uống đầy đủ, đưa khách tận nơi. Giá vé rẻ hơn các xe khác 30.000/1ve",
+          "rating_date": "2015-02-26T09:07:49.856Z"
+        }
+      ]
+    }
+  },
+  "tickets": {
+    "default": {
+      "data": [
+        {
+          "company": {
+            "id": 10,
+            "name": "Xinh Xinh",
+            "url": "xe-hoang-long",
+            "ratings": {
+              "overall": 3.7,
+              "ontime": 4.1,
+              "bus_quality": 3.3,
+              "service": 3.9,
+              "comments": 7
+            },
+            "images": [
+              "https://static.vexere.com/c/i/26622/xe-xinh-xinh-VeXeRe-l00UgXg-1000x600.jpg"
+            ]
+          },
+          "route": {
+            "name": "Hà Nội - Hồ Chí Minh",
+            "id": 13222,
+            "schedules": [
+              {
+                "trip_code": "v2CN2MCRDejAkaAjA4IgIwMDDgq3o6CjA3LTAxLTIwMTlIHVDJAw",
+                "config": "ONLINE",
+                "departure_time": 1546326000,
+                "pickup_time": 1546326000,
+                "arrival_time": 1546336800,
+                "vehicle": "Ghế ngồi 30 chỗ",
+                "total_seats": 30,
+                "available_seats": 28,
+                "fare": {
+                  "original": 150000,
+                  "max": 150000
+                },
+                "deposit": true,
+                "services": [
+                  "PICKUP",
+                  "OPERATOR_PAYMENT"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "company": {
+            "id": 10,
+            "name": "Minh Trí Limousine",
+            "url": "xe-hoang-long",
+            "ratings": {
+              "overall": 4.1,
+              "ontime": 4.3,
+              "bus_quality": 4,
+              "service": 4.1,
+              "comments": 117
+            },
+            "images": [
+              "https://static.vexere.com/c/i/18773/xe-minh-tri-limousine-VeXeRe-tpFJud7-1000x600.jpg"
+            ]
+          },
+          "route": {
+            "name": "Hà Nội - Hồ Chí Minh",
+            "id": 13222,
+            "schedules": [
+              {
+                "trip_code": "v2CN2MCRDejAkaAjA4IgIwMDDgq3o6CjA3LTAxLTIwMTlIHVDJAw",
+                "config": "ONLINE",
+                "departure_time": 1546326000,
+                "pickup_time": 1546326000,
+                "arrival_time": 1546336800,
+                "vehicle": "Limousine 9 chỗ",
+                "total_seats": 9,
+                "available_seats": 3,
+                "fare": {
+                  "original": 180000,
+                  "max": 180000
+                },
+                "deposit": true,
+                "services": [
+                  "PICKUP",
+                  "OPERATOR_PAYMENT"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "company": {
+            "id": 10,
+            "name": "Vy Vân",
+            "url": "xe-hoang-long",
+            "ratings": {
+              "overall": 3.6,
+              "ontime": 3.9,
+              "bus_quality": 3.9,
+              "service": 3.9,
+              "comments": 41
+            },
+            "images": [
+              "http://static.vexere.com/c/i/22162/xe-vy-van-VeXeRe-bvWveZo-1000x600.jpg"
+            ]
+          },
+          "route": {
+            "name": "Hà Nội - Hồ Chí Minh",
+            "id": 13222,
+            "schedules": [
+              {
+                "trip_code": "v2CPycCBD7nAgaAjEyIgIwMDDbiU06CjA3LTAxLTIwMTlIHVDJAw",
+                "config": "ONLINE",
+                "departure_time": 1546326000,
+                "pickup_time": 1546326000,
+                "arrival_time": 1546336800,
+                "vehicle": "Limousine 9 chỗ (VIP)",
+                "total_seats": 9,
+                "available_seats": 9,
+                "fare": {
+                  "original": 250000,
+                  "max": 250000
+                },
+                "deposit": true,
+                "services": [
+                  "PICKUP",
+                  "OPERATOR_PAYMENT"
+                ]
+              },
+              {
+                "trip_code": "v2akj8emnloe9DAkd2dsa",
+                "config": "DEFAULT",
+                "departure_time": 1546326000,
+                "pickup_time": 1546326000,
+                "arrival_time": 1546336800,
+                "vehicle": "Ghế ngồi 45 chỗ",
+                "total_seats": 45,
+                "fare": {
+                  "original": 320000,
+                  "discount": 250000,
+                  "discount_rate": 40,
+                  "max": 350000
+                },
+                "deposit": true,
+                "services": [
+                  "PICKUP",
+                  "OPERATOR_PAYMENT"
+                ]
+              },
+              {
+                "trip_code": "v2akj8emnloe9DAkd2dsa",
+                "config": "CALLING",
+                "departure_time": 1546326000,
+                "pickup_time": 1546326000,
+                "arrival_time": 1546336800,
+                "vehicle": "Ghế ngồi 45 chỗ",
+                "total_seats": 45,
+                "fare": {
+                  "original": 320000,
+                  "discount": 250000,
+                  "discount_rate": 40,
+                  "max": 350000
+                },
+                "deposit": true,
+                "services": [
+                  "PICKUP",
+                  "OPERATOR_PAYMENT"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "21-01-2019": {
+      "data": []
+    },
+    "22-01-2019": {
+      "data": [
+        {
+          "company": {
+            "id": 10,
+            "name": "Xinh Xinh",
+            "url": "xe-hoang-long",
+            "ratings": {
+              "overall": 3.7,
+              "ontime": 4.1,
+              "bus_quality": 3.3,
+              "service": 3.9,
+              "comments": 7
+            },
+            "images": [
+              "https://static.vexere.com/c/i/26622/xe-xinh-xinh-VeXeRe-l00UgXg-1000x600.jpg"
+            ]
+          },
+          "route": {
+            "name": "Hà Nội - Hồ Chí Minh",
+            "id": 13222,
+            "schedules": [
+              {
+                "trip_code": "v2CN2MCRDejAkaAjA4IgIwMDDgq3o6CjA3LTAxLTIwMTlIHVDJAw",
+                "config": "ONLINE",
+                "departure_time": 1546326000,
+                "pickup_time": 1546326000,
+                "arrival_time": 1546336800,
+                "vehicle": "Ghế ngồi 30 chỗ",
+                "total_seats": 30,
+                "available_seats": 0,
+                "fare": {
+                  "original": 150000,
+                  "max": 150000
+                },
+                "deposit": true,
+                "services": [
+                  "PICKUP",
+                  "OPERATOR_PAYMENT"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "company": {
+            "id": 10,
+            "name": "Minh Trí Limousine",
+            "url": "xe-hoang-long",
+            "ratings": {
+              "overall": 4.1,
+              "ontime": 4.3,
+              "bus_quality": 4,
+              "service": 4.1,
+              "comments": 117
+            },
+            "images": [
+              "https://static.vexere.com/c/i/18773/xe-minh-tri-limousine-VeXeRe-tpFJud7-1000x600.jpg"
+            ]
+          },
+          "route": {
+            "name": "Hà Nội - Hồ Chí Minh",
+            "id": 13222,
+            "schedules": [
+              {
+                "trip_code": "v2CN2MCRDejAkaAjA4IgIwMDDgq3o6CjA3LTAxLTIwMTlIHVDJAw",
+                "config": "ONLINE",
+                "departure_time": 1546326000,
+                "pickup_time": 1546326000,
+                "arrival_time": 1546336800,
+                "vehicle": "Limousine 9 chỗ",
+                "total_seats": 9,
+                "available_seats": 0,
+                "fare": {
+                  "original": 180000,
+                  "max": 180000
+                },
+                "deposit": true,
+                "services": [
+                  "PICKUP",
+                  "OPERATOR_PAYMENT"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "company": {
+            "id": 10,
+            "name": "Vy Vân",
+            "url": "xe-hoang-long",
+            "ratings": {
+              "overall": 3.6,
+              "ontime": 3.9,
+              "bus_quality": 3.9,
+              "service": 3.9,
+              "comments": 41
+            },
+            "images": [
+              "http://static.vexere.com/c/i/22162/xe-vy-van-VeXeRe-bvWveZo-1000x600.jpg"
+            ]
+          },
+          "route": {
+            "name": "Hà Nội - Hồ Chí Minh",
+            "id": 13222,
+            "schedules": [
+              {
+                "trip_code": "v2CPycCBD7nAgaAjEyIgIwMDDbiU06CjA3LTAxLTIwMTlIHVDJAw",
+                "config": "ONLINE",
+                "departure_time": 1546326000,
+                "pickup_time": 1546326000,
+                "arrival_time": 1546336800,
+                "vehicle": "Limousine 9 chỗ (VIP)",
+                "total_seats": 9,
+                "available_seats": 0,
+                "fare": {
+                  "original": 250000,
+                  "max": 250000
+                },
+                "deposit": true,
+                "services": [
+                  "PICKUP",
+                  "OPERATOR_PAYMENT"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "23-01-2019": {
+      "data": []
+    }
+  },
+  "dataSEO": {
+    "data": {
+      "route": {
+        "from": "Ho Chi Minh",
+        "to": "Da lat",
+        "date": "2019-01-23T00:00:00+07:00"
+      },
+      "fare": {
+        "min": {
+          "value": "20000",
+          "companies": [
+            "Hoa Mai",
+            "Xinh Xinh"
+          ]
+        },
+        "max": {
+          "value": "50000",
+          "companies": [
+            "Long Vũ Limousine"
+          ]
+        },
+        "avg": "230000"
+      },
+      "time": {
+        "earliest": {
+          "value": "2019-01-23T00:00:00+07:00",
+          "companies": [
+            "Tra Lan Vien",
+            "Thanh Phat"
+          ]
+        },
+        "latest": {
+          "value": "2019-01-23T23:00:00+07:00",
+          "companies": [
+            "Phuong Trang"
+          ]
+        }
+      },
+      "rating": {
+        "avg": 4.3,
+        "total": 456,
+        "min": {
+          "value": 3.1,
+          "companies": [
+            {
+              "name": "Tra lan vien",
+              "total": 12
+            }
+          ]
+        },
+        "max": {
+          "value": 3.1,
+          "companies": [
+            {
+              "name": "Tra lan vien",
+              "total": 12
+            }
+          ]
+        }
+      },
+      "template_seats": [
+        {
+          "type": "Ghế ngồi",
+          "number": 23
+        },
+        {
+          "type": "Giường nằm limousine",
+          "number": 56
+        }
+      ],
+      "companies": {
+        "total": 45,
+        "data": [
+          "Tra lan Viên",
+          "Xinh Xinh",
+          "Lova Bus"
+        ]
+      },
+      "total_trip": "235"
+    }
+  }
+}

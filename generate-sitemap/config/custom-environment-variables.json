@@ -1,0 +1,13 @@
+{
+    "mssql": {
+        "user": "MSSQL_USER",
+        "password": "MSSQL_PASSWORD",
+        "server": "MSSQL_SERVER",
+        "port": "MSSQL_PORT",
+        "database": "MSSQL_DATABASE"
+    },
+    "redis": {
+        "host": "REDIS_OAUTH_HOST",
+        "port": "REDIS_OAUTH_PORT"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "mssql": {
+        "user": "dev",
+        "password": "vxr@1234",
+        "server": "10.2.0.88",
+        "port": 5025,
+        "database": "VXR_BMS"
+    },
+    "redis": {
+        "host": "10.2.0.71",
+        "port": 6383
+    }
+}

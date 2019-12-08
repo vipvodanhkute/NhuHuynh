@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.008" height="16" viewBox="0 0 16.008 16">
+  <g id="bank-building" transform="translate(0 -0.012)">
+    <g id="Layer_1_78_" transform="translate(0 0.012)">
+      <g id="Group_2176" data-name="Group 2176">
+        <path id="Path_586" data-name="Path 586" d="M15.273,42.718H.727a.727.727,0,1,0,0,1.455H15.273a.727.727,0,0,0,0-1.455Z" transform="translate(0 -28.173)" fill="#007aff"/>
+        <path id="Path_587" data-name="Path 587" d="M3.4,23.084a.728.728,0,0,0,0,1.455H16.124a.728.728,0,0,0,0-1.455h-.182V16.538h.182a.363.363,0,0,0,0-.727H3.4a.363.363,0,0,0,0,.727h.182v6.546H3.4Zm11.091-6.546v6.546H12.306V16.538Zm-3.637,0v6.546H8.669V16.538Zm-5.818,0H7.214v6.546H5.033Z" transform="translate(-1.76 -10.43)" fill="#007aff"/>
+        <path id="Path_588" data-name="Path 588" d="M.727,4.739H15.28a.728.728,0,0,0,.236-1.416L8.3.075a.729.729,0,0,0-.6,0L.429,3.348a.727.727,0,0,0,.3,1.391Z" transform="translate(0 -0.012)" fill="#007aff"/>
+      </g>
+    </g>
+  </g>
+</svg>

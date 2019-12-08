@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: uat-nextvxr-dev
+spec:
+  selector:
+    matchLabels:
+      app: uat-nextvxr-dev
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: uat-nextvxr-dev
+    spec:
+      containers:
+      - name: uat-nextvxr-dev
+        image: gcr.io/vexere-218206/nextvxr-dev:latest
+        env:
+        - name: NODE_ENV
+          value: "production"
+        - name: ENV
+          value: "uat"
+        ports:
+        - containerPort: 3000
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: uat-nextvxr-dev
+spec:
+  selector:
+    app: uat-nextvxr-dev
+  type: NodePort
+  ports:
+  - protocol: TCP
+    port: 3000
+    targetPort: 3000
+    nodePort: 30013

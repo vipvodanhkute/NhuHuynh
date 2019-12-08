@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: canary-nextvxr-dev
+spec:
+  selector:
+    matchLabels:
+      app: canary-nextvxr-dev
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: canary-nextvxr-dev
+    spec:
+      containers:
+      - name: canary-nextvxr-dev
+        image: gcr.io/vexere-218206/nextvxr-dev:latest
+        env:
+        - name: NODE_ENV
+          value: "production"
+        - name: ENV
+          value: "canary"
+        ports:
+        - containerPort: 3000
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: canary-nextvxr-dev
+spec:
+  selector:
+    app: canary-nextvxr-dev
+  type: NodePort
+  ports:
+  - protocol: TCP
+    port: 3000
+    targetPort: 3000
+    nodePort: 30016

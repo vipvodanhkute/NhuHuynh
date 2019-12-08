@@ -1,0 +1,61 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: production-nextvxr-dev
+spec:
+  selector:
+    matchLabels:
+      app: production-nextvxr-dev
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: production-nextvxr-dev
+    spec:
+      containers:
+      - name: production-nextvxr-dev
+        image: gcr.io/vexere-218206/nextvxr-dev:latest
+        env:
+        - name: NODE_ENV
+          value: "production"
+        - name: ENV
+          value: "production"
+        ports:
+        - containerPort: 3000
+
+---
+apiVersion: autoscaling/v2beta1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: production-nextvxr-dev
+spec:
+  scaleTargetRef:
+    apiVersion: extensions/v1beta1
+    kind: Deployment
+    name: production-nextvxr-dev
+  minReplicas: 1
+  maxReplicas: 3
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      targetAverageUtilization: 80
+  - type: Resource
+    resource:
+      name: memory
+      targetAverageUtilization: 90
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: production-nextvxr-dev
+spec:
+  selector:
+    app: production-nextvxr-dev
+  type: NodePort
+  ports:
+  - protocol: TCP
+    port: 3000
+    targetPort: 3000
+    nodePort: 30017

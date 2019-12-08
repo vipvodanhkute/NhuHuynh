@@ -1,0 +1,39 @@
+{
+  "name": "generate-sitemap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.vexere.net/huy.nguyen/generate-sitemap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/register": "^7.4.4",
+    "babel-polyfill": "^6.26.0",
+    "bluebird": "^3.5.5",
+    "body-parser": "^1.19.0",
+    "config": "^3.1.0",
+    "cross-env": "^5.2.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0",
+    "redis": "^2.8.0",
+    "sequelize": "^5.9.0",
+    "tedious": "^6.2.0",
+    "xmlbuilder": "^13.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.5.4"
+  }
+}

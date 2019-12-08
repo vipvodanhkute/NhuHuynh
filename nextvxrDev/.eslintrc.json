@@ -1,0 +1,37 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true
+  },
+  "settings": {
+    "import/resolver": "babel-plugin-root-import"
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "redux-saga"],
+  "rules": {
+    "react/prop-types": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/jsx-filename-extension": 0,
+    "semi": 0,
+    "react/no-array-index-key": 0,
+    "import/prefer-default-export": 0,
+    "jsx-a11y": 0,
+    "react/jsx-uses-vars": [2],
+    "react/jsx-no-bind": 0,
+    "func-style": 0,
+    "camelcase": [1, { "properties": "never" }],
+    "react/destructuring-assignment": 0,
+    "no-underscore-dangle": 0,
+    "linebreak-style": 0
+  }
+}

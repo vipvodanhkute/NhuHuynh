@@ -1,0 +1,11 @@
+{
+    "isOnlineTicketBooking": 1,
+    "payment_type": "TT_COP,TT_ONLINE,TT_CASH",
+    "pickup_point_ids": "1,2,3",
+    "drop_off_point_ids": "1,2,3",
+    "fare": "20000~70000",
+    "seat_available": "1~8",
+    "utility": "AIR_COOL, WIFI, WATER",
+    "service": "TRANSFER_PICKUP, TRANSFER_DROP_OFF, MEAL",
+    "other": "FREE_CANCEL_TICKET, VIP_LIMOUSINE"
+}
